@@ -109,9 +109,16 @@ console.log(hasTicket && isVip); // both conditions must beb true
 
 // OR operator : at least one condition must be true
 
-console.log(hasTicket && isVip);
+console.log(hasTicket || isVip);
 
 // NOT
 
 let isNotLoggedIn = true;
+console.log(!isNotLoggedIn)
 
+let cartTotal = 120;
+let isPremiumMember = true;
+let hasDiscountCode = false;
+let isFraudulent = false;
+
+console.log(cartTotal > 100 && isPremiumMember && !isFraudulent)
