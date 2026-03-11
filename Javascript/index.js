@@ -98,4 +98,20 @@ console.log(userAge >= 18)
 console.log(userAge !== 13)
 
 
+// AND / OR / 
+
+let hasTicket = true;
+let isVip = false;
+
+// AND operator : if one condition fails all things fail
+
+console.log(hasTicket && isVip); // both conditions must beb true
+
+// OR operator : at least one condition must be true
+
+console.log(hasTicket && isVip);
+
+// NOT
+
+let isNotLoggedIn = true;
 
